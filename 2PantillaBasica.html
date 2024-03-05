@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Hola! Bienvenidos a mi blog</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#">Principal</a></li>
+    <li><a href="#">Fotos</a></li>
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Curr&iacute;culum V&iacute;tae</h1>
+                  <h4>Duran Palestino Mar&iacute;a del Roc&iacute;o</h4>
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 04-03-2024
+              </time>
+        </header>
+        <ul>
+          <li>2015-2018: Tecnico en Contabilidad. Escuela Sencuandaria Tecnica Industrial No. 66 (Yanga, Ver.).</li>
+          <li>2018-2021: Bachillerato con capacitación para el trabajo en .NET. COBAEV 29 "Gaspar Yanga" (Yanga, Ver.).</li>
+          <li>Inglés: Nivel Intermedio. Título nivel B1, por el Centro de Idiomas UV.</li>
+        </ul>
+          <figure>
+            <video src="img/presentacion.mp4" width="500" height="240" controls></video>
+                <figcaption>
+                    Presentaci&oacute;n
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Ubicaci&oacute;n</h1>
+                <h4>Aqu&iacute; mi m&aacute;xima casa de estudios</h4>
+            </hgroup>
+            <time datetime="2011-12-15" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         TECNM Campus Orizaba "ITO"
+         <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4924.5533612287445!2d-97.09973443846641!3d18.85846657067273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses-419!2smx!4v1709619517788!5m2!1ses-419!2smx" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <img id="imagen2" src="img/yo.jpg">
+               <figcaption>
+                   Esta es la imagen del primer mensaje
+               </figcaption>
+         </figure>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Mensaje número uno</blockquote>
+      <blockquote>Mensaje número dos</blockquote>
+      <a href="https://www.facebook.com/rocio.duranpalestino.5/">
+       <figure>
+         <img src="img/fb.png" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/chio_durann?igsh=MTE1cTQ2bWpxazl5Yg==">
+        <figure>
+          <img src="img/ig.png" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
